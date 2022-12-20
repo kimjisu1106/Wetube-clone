@@ -1,0 +1,31 @@
+{
+  "name": "wetube-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimjisu1106/wetube-clone.git"
+  },
+  "author": "jisu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimjisu1106/wetube-clone/issues"
+  },
+  "homepage": "https://github.com/kimjisu1106/wetube-clone#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/node": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20"
+  }
+}
