@@ -1,4 +1,5 @@
-export const trending = (req, res) => res.render(trending);
+export const trending = (req, res) =>
+  res.render("trending", { pageTitle: "Trending Videos" });
 export const editVideo = (req, res) => res.send("EDIT VIDEO");
 export const seeVideo = (req, res) => res.send("SEE VIDEO");
 export const uploadVideo = (req, res) => res.send("UPLOAD VIDEO");

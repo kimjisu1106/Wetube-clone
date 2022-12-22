@@ -19,7 +19,9 @@
   "homepage": "https://github.com/kimjisu1106/wetube-clone#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "mongoose": "^6.8.1",
     "morgan": "^1.10.0",
+    "mvp.css": "^1.12.0",
     "pug": "^3.0.2"
   },
   "devDependencies": {
